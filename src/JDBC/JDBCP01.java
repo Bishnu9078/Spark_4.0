@@ -17,7 +17,10 @@ public class JDBCP01 {
             String query = "select * from student";
 
             ResultSet rs = statement.executeQuery(query);
-            System.out.println("--------------Read data---------------");
+            System.out.println("---------------Read data---------------");
+            System.out.println("---------------Show data---------------");
+
+
             while (rs.next()) {
                 System.out.println(
                         rs.getInt("id")+ " | "+
