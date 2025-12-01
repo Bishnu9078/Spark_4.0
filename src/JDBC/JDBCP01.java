@@ -18,7 +18,6 @@ public class JDBCP01 {
 
             ResultSet rs = statement.executeQuery(query);
             System.out.println("---------------Read data---------------");
-            System.out.println("---------------Show data---------------");
 
 
             while (rs.next()) {
